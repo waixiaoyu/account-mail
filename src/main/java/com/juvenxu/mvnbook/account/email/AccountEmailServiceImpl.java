@@ -11,7 +11,7 @@ public class AccountEmailServiceImpl
 {
     private JavaMailSender javaMailSender;
 
-    private String systemEmail;
+    private String systemEmail="this is systemEmail";
 
     public void sendMail( String to, String subject, String htmlText )
         throws AccountEmailException
